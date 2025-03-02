@@ -24,7 +24,7 @@ const img = ref(null);
 const store = useScoreStore();
 
 const imgSrc = computed(() => {
-  if (store.score > 50) return roman3;
+  if (store.score > 75) return roman3;
   if (store.score > 25) return roman2;
   return roman1;
 });
